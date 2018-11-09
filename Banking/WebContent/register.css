@@ -1,0 +1,15 @@
+.register{
+	margin-top: 100px;
+    margin-bottom: 350px;
+    margin-right: 450px;
+    margin-left: 400px;
+	border-style: double;
+    border-width: thick;
+    background-color: lightgrey;
+    border:1px solid black;
+    padding:20px;
+}
+#email,#uname,#fname,#pwd,#repwd
+{
+  color: red;
+}

@@ -1,0 +1,6 @@
+.login{
+	margin-top:150px;
+	margin-left:400px;
+	border:1px solid black;
+    padding:20px;
+}
