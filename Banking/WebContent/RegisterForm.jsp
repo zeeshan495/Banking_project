@@ -50,7 +50,7 @@
 <body>
 	<div class="register">
 		<h2>Welcome to User Registration</h2>
-		<form action="SaveUrl" name="myForm" onsubmit="return validEmail();"
+		<form action="SaveUrl" name="myForm" 
 			method="post">
 			<table>
 				<tr>

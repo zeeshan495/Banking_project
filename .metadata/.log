@@ -502,3 +502,361 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 
 !ENTRY org.eclipse.wst.server.core 4 0 2018-11-09 10:24:32.858
 !MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-11-09 17:47:21.526
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2018-11-09 17:47:21.564
+!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-11-09 18:08:17.516
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Printable [in Printable.class [in java.awt.print [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2018-11-09 18:08:17.516
+!MESSAGE Unknown javadoc format for Printable [in Printable.class [in java.awt.print [in C:\Program Files\Java\jre7\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-11-09 20:10:11.697
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for SQLException {key=Ljava/sql/SQLException;} [in SQLException.class [in java.sql [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2018-11-09 20:10:11.699
+!MESSAGE Unknown javadoc format for SQLException {key=Ljava/sql/SQLException;} [in SQLException.class [in java.sql [in C:\Program Files\Java\jre7\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.124
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/DataStoreMetadataImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.130
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/MysqlxSession.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.133
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/NativeSession.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.141
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/ServerPreparedQuery.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.150
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/conf/BooleanPropertyDefinition.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.154
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/conf/ConnectionUrl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.157
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/conf/EnumPropertyDefinition.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.160
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/conf/HostInfo.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.165
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/conf/PropertyDefinitions$PropertyKey.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.172
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/conf/url/LoadbalanceConnectionUrl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.193
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/conf/url/ReplicationConnectionUrl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.194
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/conf/url/XDevAPIConnectionUrl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.206
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/exceptions/ExceptionInterceptorChain.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.237
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/jdbc/ConnectionImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.274
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/jdbc/MysqlDataSource.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.296
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/jdbc/ha/LoadBalancedConnectionProxy.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.302
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/jdbc/ha/ReplicationConnectionProxy.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.323
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/ExportControlled$X509TrustManagerWrapper.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.331
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/SerializingBufferWriter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.334
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/TlsAsynchronousSocketChannel.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.375
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/x/AsyncMessageReader.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.377
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/x/AsyncMessageSender.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.380
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/x/ResultCreatingResultListener.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.399
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/x/SqlResultMessageListener.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.400
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/x/StatementExecuteOkBuilder.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.406
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/x/XMessageBuilder.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.408
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/x/XProtocol.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.413
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/x/XServerCapabilities.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.478
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/util/StringUtils.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.654
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/AbstractDataResult.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.657
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/AbstractFilterParams.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.658
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/AddStatementImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.667
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/DeleteStatementImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.670
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/ExprParser.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.673
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/ExprUnparser.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.708
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/ExprUtil.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.712
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/FindStatementImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.713
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/InsertParams.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.716
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/InsertStatementImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.719
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/ModifyStatementImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.720
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/RemoveStatementImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.724
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/RowResultImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.729
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/SchemaImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.733
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/SelectStatementImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.735
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/SessionImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.738
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/Statement.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.740
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/TableImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.741
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/UpdateParams.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.743
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/UpdateResult.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:46:47.745
+!MESSAGE The Java indexing could not index C:/Users/ZEESHAN/Downloads/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/UpdateStatementImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.820
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/DataStoreMetadataImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.857
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/MysqlxSession.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.862
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/NativeSession.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.872
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/ServerPreparedQuery.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.889
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/conf/BooleanPropertyDefinition.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.897
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/conf/ConnectionUrl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.902
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/conf/EnumPropertyDefinition.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.904
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/conf/HostInfo.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.909
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/conf/PropertyDefinitions$PropertyKey.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.912
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/conf/url/LoadbalanceConnectionUrl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.914
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/conf/url/ReplicationConnectionUrl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.915
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/conf/url/XDevAPIConnectionUrl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.918
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/exceptions/ExceptionInterceptorChain.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.931
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/jdbc/ConnectionImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.941
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/jdbc/MysqlDataSource.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.956
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/jdbc/ha/LoadBalancedConnectionProxy.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.959
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/jdbc/ha/ReplicationConnectionProxy.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.971
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/ExportControlled$X509TrustManagerWrapper.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.976
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/SerializingBufferWriter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.979
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/TlsAsynchronousSocketChannel.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.998
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/x/AsyncMessageReader.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:40.999
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/x/AsyncMessageSender.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.002
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/x/ResultCreatingResultListener.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.004
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/x/SqlResultMessageListener.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.006
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/x/StatementExecuteOkBuilder.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.010
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/x/XMessageBuilder.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.013
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/x/XProtocol.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.016
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/protocol/x/XServerCapabilities.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.027
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/util/StringUtils.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.254
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/AbstractDataResult.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.256
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/AbstractFilterParams.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.259
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/AddStatementImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.269
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/DeleteStatementImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.275
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/ExprParser.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.278
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/ExprUnparser.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.280
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/ExprUtil.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.285
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/FindStatementImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.287
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/InsertParams.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.290
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/InsertStatementImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.295
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/ModifyStatementImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.297
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/RemoveStatementImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.300
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/RowResultImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.302
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/SchemaImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.303
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/SelectStatementImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.305
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/SessionImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.307
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/Statement.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.308
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/TableImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.310
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/UpdateParams.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.313
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/UpdateResult.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-11-09 20:48:41.314
+!MESSAGE The Java indexing could not index I:/Banking_project/Banking/WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar|com/mysql/cj/xdevapi/UpdateStatementImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!SESSION 2018-11-10 10:06:29.195 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2018-11-10 10:07:45.205
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.

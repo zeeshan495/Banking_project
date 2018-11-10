@@ -1,0 +1,25 @@
+package service;
+
+public class Service {
+	public int save(UserInfo info) throws SQLException
+	{
+		UserDao user=new UserDao();
+		int status=user.saveUser(info);
+		return status;
+	}
+	
+	public boolean checkRegisterUser(String mail) throws SQLException
+	{
+		UserDao user=new UserDao();
+		boolean status=user.checkRegisterUser(mail);
+		return status;
+	}
+	
+	public boolean checkLoginUser(String mail,String pwd)throws SQLException
+	{
+		UserDao user=new UserDao();
+		boolean status=user.checkLoginUser(mail,pwd);
+		return status;
+	}
+
+}

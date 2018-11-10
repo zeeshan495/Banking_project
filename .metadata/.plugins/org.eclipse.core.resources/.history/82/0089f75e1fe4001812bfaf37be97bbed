@@ -1,0 +1,119 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import model.UserInfo;
+
+public class UserDao {
+	
+	 public static Connection getConnection()
+		{ 
+		 String Driver_db="com.mysql.jdbc.Driver";
+		 String name="root";
+		 String pwd="root";
+		 String URL="jdbc:mysql://localhost:3306/Registration";
+		 Connection con=null;
+			try {
+				Class.forName(Driver_db);
+				con=DriverManager.getConnection(URL,name,pwd);
+							
+			} catch (ClassNotFoundException e) {
+				e.printStackTrace();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+			return con;	
+		}	
+	 
+	 
+	public  int saveUser(UserInfo info) throws SQLException
+	{
+		int status=0;
+		PreparedStatement ps=getConnection().prepareStatement("insert into user values(?,?,?,?,?)");
+		ps.setString(1, info.getUsername());
+		ps.setString(2, info.getFullname());
+		ps.setString(3, info.getMailid());
+		ps.setString(4, info.getPhonenum());
+		ps.setString(5, info.getPassword());
+		status=ps.executeUpdate();
+		getConnection().close();
+		return status;
+	}
+	
+	public static List<UserInfo> getAllUsers()
+	{
+		List<UserInfo> list=new ArrayList<UserInfo>();
+		try {
+			PreparedStatement ps=getConnection().prepareStatement("select * from user");
+			ResultSet rs=ps.executeQuery();
+			while(rs.next())
+			{
+				UserInfo info=new UserInfo();
+				info.setUsername(rs.getString(1));
+				info.setFullname(rs.getString(2));
+				info.setMailid(rs.getString(3));
+				info.setPhonenum(rs.getString(4));
+				info.setPassword(rs.getString(5));
+				list.add(info);
+			}
+		getConnection().close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return list;
+	}
+	
+	public boolean checkRegisterUser(String mail) throws SQLException
+	{
+		List<UserInfo> list=new ArrayList<UserInfo>();
+		
+			PreparedStatement ps=getConnection().prepareStatement("select * from user");
+			ResultSet rs=ps.executeQuery();
+			while(rs.next())
+			{
+				UserInfo info=new UserInfo();
+				info.setMailid(rs.getString("mailId"));
+				list.add(info);
+			}
+			for(UserInfo data:list)
+			{
+				if(data.getMailid().equals(mail))
+				{
+					return true;
+				}
+			}
+		getConnection().close();
+		return false;
+	}
+	
+	public boolean checkLoginUser(String mail,String pwd) throws SQLException
+	{
+		List<UserInfo> list=new ArrayList<UserInfo>();
+		
+			PreparedStatement ps=getConnection().prepareStatement("select * from user");
+			ResultSet rs=ps.executeQuery();
+			while(rs.next())
+			{
+				UserInfo info=new UserInfo();
+				info.setMailid(rs.getString("mailId"));
+				info.setPassword(rs.getString("password"));
+				list.add(info);
+			}
+			for(UserInfo data:list)
+			{
+				if(data.getMailid().equals(mail) && data.getPassword().equals(pwd))
+				{
+					return true;
+				}
+			}
+		getConnection().close();
+		return false;
+	}
+
+}

@@ -9,5 +9,12 @@
 <a href="registerUrl">register</a>
 <br><br>
 <a href="loginUrl">login</a>
+<div>
+<%
+String sucessMsg=(String)request.getAttribute("succesMsg");
+if(sucessMsg!=null)
+out.println(sucessMsg);
+%>
+</div>
 </body>
 </html>
