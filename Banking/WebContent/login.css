@@ -4,6 +4,13 @@
 	margin-right:500px;
 	border:1px solid black;
     padding:20px;
-    background-color:lightblue;
-   
+    background-color:lightblue;  
+}
+#email
+{
+  color: red;
+}
+
+.loginError{
+	color:red;
 }

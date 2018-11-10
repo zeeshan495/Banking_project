@@ -20,19 +20,43 @@
     <url-pattern>/loginUrl</url-pattern>
   </servlet-mapping>
   <filter>
-  <filter-name>RegisterServlet</filter-name>
-  <filter-class>controllers.RegisterSaveFilter</filter-class>
+    <filter-name>RegisterServlet</filter-name>
+    <filter-class>controllers.RegisterSaveFilter</filter-class>
   </filter>
   <filter-mapping>
-  <filter-name>RegisterServlet</filter-name>
-  <url-pattern>/SaveUrl</url-pattern>
+    <filter-name>RegisterServlet</filter-name>
+    <url-pattern>/SaveUrl</url-pattern>
   </filter-mapping>
   <servlet>
-  <servlet-name>SaveServlet</servlet-name>
-  <servlet-class>controllers.SaveServlet</servlet-class>
+    <servlet-name>SaveServlet</servlet-name>
+    <servlet-class>controllers.SaveServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-  <servlet-name>SaveServlet</servlet-name>
-  <url-pattern>/SaveUrl</url-pattern>
+    <servlet-name>SaveServlet</servlet-name>
+    <url-pattern>/SaveUrl</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <filter-name>LoginFilter</filter-name>
+    <filter-class>controllers.LoginFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>LoginFilter</filter-name>
+    <url-pattern>/homeUrl</url-pattern>
+  </filter-mapping>
+  <servlet>
+    <servlet-name>HomeServlet</servlet-name>
+    <servlet-class>controllers.HomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeServlet</servlet-name>
+    <url-pattern>/homeUrl</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>LogoutServlet</servlet-name>
+  <servlet-class>controllers.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>LogoutServlet</servlet-name>
+  <url-pattern>/logoutUrl</url-pattern>
   </servlet-mapping>
 </web-app>

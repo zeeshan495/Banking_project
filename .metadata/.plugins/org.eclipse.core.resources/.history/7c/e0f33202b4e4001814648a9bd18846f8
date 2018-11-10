@@ -1,0 +1,12 @@
+.login{
+	margin-top:150px;
+	margin-left:500px;
+	margin-right:500px;
+	border:1px solid black;
+    padding:20px;
+    background-color:lightblue;
+   
+}
+#email{
+	color:red;
+}
